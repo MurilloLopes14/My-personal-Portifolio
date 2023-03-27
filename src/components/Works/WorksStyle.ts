@@ -53,7 +53,7 @@ export const Li = styled.li`
   -webkit-text-stroke: 1px white;
   cursor: pointer;
 
-  @media only screen and (min-width: 800px) {
+  @media only screen and (max-width: 999px) {
     font-size: 4rem;
   }
 

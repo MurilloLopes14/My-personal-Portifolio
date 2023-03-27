@@ -27,7 +27,7 @@ export const ContactStyle = styled.section`
         flex-direction: column;
         gap: 1.2rem;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (max-width: 999px) {
           margin: 0 auto;
         }
 
@@ -68,7 +68,7 @@ export const ContactStyle = styled.section`
       flex: 1;
       margin: 10rem;
 
-      @media only screen and (min-width: 800px) {
+      @media only screen and (max-width: 999px) {
         display: none;
       }
 

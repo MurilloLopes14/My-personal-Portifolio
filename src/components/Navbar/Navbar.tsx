@@ -28,7 +28,7 @@ export const Navbar = (props: Props) => {
           </Link>
           <Link
             to={
-              "https://drive.google.com/file/d/1eX5ARXw6SF5mhi9S9vqeYOMWhh8M3xmI/view?usp=share_link"
+              "https://drive.google.com/file/d/1Ox_pJp-fTlkZqY8vOVga2vRUK9uXehDu/view?usp=share_link"
             }
             className="btn"
             target="_blank"

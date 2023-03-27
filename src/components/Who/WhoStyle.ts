@@ -13,12 +13,9 @@ export const WhoStyle = styled.section`
     display: flex;
     justify-content: space-between;
 
-    @media only screen and (min-width: 800px) {
-      flex-direction: column;
-    }
-
     .left-side {
       flex: 1;
+
       @media only screen and (max-width: 768px) {
         display: none;
       }
@@ -31,7 +28,7 @@ export const WhoStyle = styled.section`
       justify-content: center;
       gap: 2rem;
 
-      @media only screen and (min-width: 800px) {
+      @media only screen and (max-width: 999px) {
         text-align: center;
         align-items: center;
       }
@@ -44,7 +41,7 @@ export const WhoStyle = styled.section`
       h1 {
         font-size: 4.5rem;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (max-width: 999px) {
           font-size: 2.8rem;
         }
 
@@ -71,7 +68,7 @@ export const WhoStyle = styled.section`
         font-size: 1.5rem;
         color: lightgray;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (max-width: 999px) {
           font-size: 1.2rem;
         }
       }

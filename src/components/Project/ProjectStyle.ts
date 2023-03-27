@@ -11,7 +11,7 @@ export const ProjectStyle = styled.div`
     props.property === "reverse" ? "row-reverse" : "row"};
   gap: 3rem;
 
-  @media only screen and (min-width: 800px) {
+  @media only screen and (max-width: 999px) {
     flex-direction: column;
     width: 100%;
     gap: 0;
@@ -65,7 +65,7 @@ export const ProjectStyle = styled.div`
       font-size: 3rem;
       border-bottom: 1px solid lightgray;
 
-      @media only screen and (min-width: 800px) {
+      @media only screen and (max-width: 999px) {
         border-bottom: none;
       }
 

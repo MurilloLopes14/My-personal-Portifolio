@@ -31,7 +31,7 @@ export const AboutMeStyle = styled.section`
     margin-bottom: 1.5rem;
     gap: 2rem;
 
-    @media only screen and (min-width: 800px) {
+    @media only screen and (max-width: 999px) {
       margin: 15rem 0 2rem 0;
     }
 
@@ -46,7 +46,7 @@ export const AboutMeStyle = styled.section`
       width: 200px;
       border-radius: 50%;
 
-      @media only screen and (min-width: 800px) {
+      @media only screen and (max-width: 999px) {
         width: 100px;
       }
 
@@ -61,7 +61,7 @@ export const AboutMeStyle = styled.section`
       h1 {
         font-size: 4rem;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (max-width: 999px) {
           font-size: 2.5rem;
         }
 
@@ -86,7 +86,7 @@ export const AboutMeStyle = styled.section`
       h3 {
         font-size: 2rem;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (max-width: 999px) {
           font-size: 1.4rem;
         }
 
@@ -148,7 +148,7 @@ export const AboutMeStyle = styled.section`
     margin-top: 1rem;
     line-height: 2rem;
 
-    @media only screen and (min-width: 800px) {
+    @media only screen and (max-width: 999px) {
       text-align: center;
       width: 80%;
     }
@@ -163,7 +163,7 @@ export const AboutMeStyle = styled.section`
       padding-right: 1rem;
       border-right: 1px solid lightgray;
 
-      @media only screen and (min-width: 800px) {
+      @media only screen and (max-width: 999px) {
         height: 400px;
       }
 
@@ -189,7 +189,7 @@ export const AboutMeStyle = styled.section`
       padding-right: 1rem;
       border-right: 1px solid lightgray;
 
-      @media only screen and (min-width: 800px) {
+      @media only screen and (max-width: 999px) {
         height: 400px;
       }
 
@@ -214,7 +214,7 @@ export const AboutMeStyle = styled.section`
     .habilities {
       height: 300px;
 
-      @media only screen and (min-width: 800px) {
+      @media only screen and (max-width: 999px) {
         height: 400px;
       }
 

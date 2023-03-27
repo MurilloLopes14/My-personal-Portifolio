@@ -19,7 +19,7 @@ export const HeroStyle = styled.section`
     display: flex;
     justify-content: space-between;
 
-    @media only screen and (max-width: 1200px) {
+    @media only screen and (max-width: 999px) {
       width: 100%;
     }
 
@@ -37,19 +37,19 @@ export const HeroStyle = styled.section`
       justify-content: center;
       gap: 2rem;
 
-      @media only screen and (max-width: 768px) {
-        align-items: center;
-      }
-
-      @media only screen and (min-width: 800px) {
+      @media only screen and (max-width: 999px) {
         flex: 1;
         margin-left: 0.5rem;
+      }
+
+      @media only screen and (max-width: 768px) {
+        align-items: center;
       }
 
       h1 {
         font-size: 4.5rem;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (max-width: 999px) {
           font-size: 2.5rem;
         }
 
@@ -76,7 +76,7 @@ export const HeroStyle = styled.section`
         font-size: 24px;
         color: lightgray;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (max-width: 999px) {
           font-size: 1rem;
         }
 
@@ -90,7 +90,7 @@ export const HeroStyle = styled.section`
       flex: 3;
       position: relative;
 
-      @media only screen and (min-width: 800px) {
+      @media only screen and (max-width: 999px) {
         flex: 2;
       }
 
@@ -111,7 +111,7 @@ export const HeroStyle = styled.section`
         margin: auto;
         animation: animate 2s infinite ease alternate;
 
-        @media only screen and (min-width: 800px) {
+        @media only screen and (max-width: 999px) {
           width: 100%;
           height: 500px;
         }

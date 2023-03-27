@@ -10,7 +10,7 @@ export const ProjectsStyle = styled.section`
     top: -0.8%;
     left: 1%;
 
-    @media only screen and (min-width: 800px) {
+    @media only screen and (max-width: 999px) {
       left: 45%;
     }
 
@@ -29,7 +29,7 @@ export const ProjectsStyle = styled.section`
     h1 {
       font-size: 5rem;
 
-      @media only screen and (min-width: 800px) {
+      @media only screen and (max-width: 999px) {
         font-size: 3rem;
       }
 
@@ -40,7 +40,7 @@ export const ProjectsStyle = styled.section`
     h3 {
       font-size: 2rem;
 
-      @media only screen and (min-width: 800px) {
+      @media only screen and (max-width: 999px) {
         font-size: 1.4rem;
         margin-bottom: 2rem;
       }
