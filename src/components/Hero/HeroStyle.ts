@@ -15,7 +15,7 @@ export const HeroStyle = styled.section`
   #container {
     height: 100%;
     scroll-snap-align: center;
-    width: 1400px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 
@@ -24,17 +24,17 @@ export const HeroStyle = styled.section`
     }
 
     @media only screen and (max-width: 768px) {
-      width: 100%;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
 
     .left-side {
-      flex: 2;
+      flex: 1;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      margin-left: 0.5rem;
       gap: 2rem;
 
       @media only screen and (max-width: 999px) {
@@ -87,7 +87,7 @@ export const HeroStyle = styled.section`
       }
     }
     .right-side {
-      flex: 3;
+      flex: 1;
       position: relative;
 
       @media only screen and (max-width: 999px) {
@@ -100,8 +100,8 @@ export const HeroStyle = styled.section`
       }
 
       .moon {
-        width: 800px;
-        height: 600px;
+        width: 100%;
+        height: 500px;
         object-fit: contain;
         position: absolute;
         top: 0;
