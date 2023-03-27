@@ -10,11 +10,11 @@ Once I made another portifolio with SASS and React but recently I've took a look
 → Try it by your self! <br />
 
 ### Libraries used
-• styled-components <br />
-• react-router-dom <br />
-• react-icons <br />
-• three <br />
-• emailjs <br />
-• three/drei <br />
-• three/fiber <br />
-• react-spinners <br />
+- styled-components 
+- react-router-dom
+- react-icons
+- react-spinners
+- three
+- three/drei
+- three/fiber
+- emailjs 
