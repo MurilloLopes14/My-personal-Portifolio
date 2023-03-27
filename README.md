@@ -7,7 +7,7 @@ Once I made another portifolio with SASS and React but recently I've took a look
 → dowload the zip code or clone it with git <br />
 → go to project folder path using `cd` command <br />
 → then, once in project folder, run `npm run dev -- --open` to open project in browser <br />
-→ Try it by your self! <br />
+→ Try it by yourself! <br />
 
 ### Libraries used
 - styled-components 
