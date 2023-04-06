@@ -9,8 +9,8 @@ export const AboutMeStyle = styled.section`
   position: relative;
 
   @media only screen and (max-width: 768px) {
-    height: 200vh;
     text-align: center;
+    height: 200vh;
   }
 
   a {
@@ -18,6 +18,10 @@ export const AboutMeStyle = styled.section`
     position: absolute;
     top: 10px;
     left: 10px;
+
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
   }
 
   hr {
@@ -29,7 +33,7 @@ export const AboutMeStyle = styled.section`
     display: flex;
     align-items: center;
     margin-bottom: 1.5rem;
-    gap: 2rem;
+    gap: 1rem;
 
     @media only screen and (max-width: 999px) {
       margin: 15rem 0 2rem 0;
@@ -38,7 +42,7 @@ export const AboutMeStyle = styled.section`
     @media only screen and (max-width: 768px) {
       justify-content: center;
       flex-direction: column;
-      margin: 30rem 0 0 0;
+      align-items: center;
       gap: 0.6rem;
     }
 
@@ -51,7 +55,7 @@ export const AboutMeStyle = styled.section`
       }
 
       @media only screen and (max-width: 768px) {
-        width: 100px;
+        display: none;
       }
     }
     .titles {

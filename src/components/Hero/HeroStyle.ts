@@ -9,7 +9,7 @@ export const HeroStyle = styled.section`
   justify-content: space-between;
 
   @media only screen and (max-width: 768px) {
-    height: 200vh;
+    height: 100vh;
   }
 
   #container {
@@ -95,8 +95,7 @@ export const HeroStyle = styled.section`
       }
 
       @media only screen and (max-width: 768px) {
-        flex: 1;
-        width: 100%;
+        display: none;
       }
 
       .moon {
@@ -114,11 +113,6 @@ export const HeroStyle = styled.section`
         @media only screen and (max-width: 999px) {
           width: 100%;
           height: 500px;
-        }
-
-        @media only screen and (max-width: 768px) {
-          width: 100%;
-          height: 600px;
         }
       }
 
